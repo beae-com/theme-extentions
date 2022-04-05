@@ -13,10 +13,8 @@
 </template>
 
 <script>
-    import { Liquid, Element, Javascript } from '@/mixins';
     export default {
         name: 'ProductReviewForm',
-        mixins: [Liquid, Element, Javascript],
         props: {
             data: {
                 type: Object,
@@ -171,9 +169,6 @@
                     shopify_type: 'product'
                 };
             }
-        },
-        methods: {
-
         }
 
     };
